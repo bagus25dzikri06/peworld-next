@@ -1,0 +1,32 @@
+.subText1 {
+  @apply my-5 text-2xl;
+}
+
+.subText2 {
+  @apply my-5 text-2xl mx-9;
+}
+
+.opinionImage {
+  @apply rounded-full border-8 border-yellow-400;
+}
+
+.mulaiDariSekarang1 {
+  @apply btn btn-primary my-5;
+  background-color: #5E50A1;
+}
+
+.mulaiDariSekarang2 {
+  @apply btn btn-outline;
+  background-color: #FFFFFF !important;
+}
+
+.mulaiDariSekarang2:hover {
+  background-color: #5E50A1 !important;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

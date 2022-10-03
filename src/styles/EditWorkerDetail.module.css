@@ -1,0 +1,17 @@
+.box1 {
+	@apply
+	min-w-full
+	min-h-full
+  items-center
+  justify-center
+	row-span-2;
+}
+
+.box2 {
+	@apply
+		min-w-full
+		h-4/6
+    items-center
+    justify-center
+		row-span-2 col-start-2 col-span-3;
+}

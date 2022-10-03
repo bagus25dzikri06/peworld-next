@@ -1,0 +1,23 @@
+.footer {
+  @apply bg-purple-800 py-14;
+}
+
+.footerTagline {
+  @apply text-white text-xl flex justify-between max-w-[1200px] mx-auto py-1;
+}
+
+.footerNavbar {
+  @apply text-white flex justify-between max-w-[1200px] mx-auto py-2;
+}
+
+.footerDivider {
+  @apply text-white flex justify-between max-w-[1200px] mx-auto my-8;
+}
+
+.footerNavbar p {
+  @apply font-normal text-xl;
+}
+
+.footerNavbar nav {
+  @apply text-lg flex gap-5;
+}

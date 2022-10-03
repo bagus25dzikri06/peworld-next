@@ -1,0 +1,24 @@
+.header {
+  @apply flex bg-white justify-between max-w-[1535px] mx-24 py-7;
+}
+
+.header h1{
+  @apply font-semibold text-xl;
+}
+
+.header nav{
+  @apply text-sm flex gap-5;
+}
+
+.masuk {
+  @apply btn btn-outline;
+}
+
+.masuk:hover {
+  background-color: #5E50A1 !important;
+}
+
+.daftar {
+  @apply btn btn-primary;
+  background-color: #5E50A1;
+}

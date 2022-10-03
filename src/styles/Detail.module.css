@@ -1,0 +1,21 @@
+.box1 {
+	@apply
+	bg-white
+	text-black
+		min-w-full
+		min-h-full
+    items-center
+    justify-center
+		rounded row-span-2;
+}
+
+.box2 {
+	@apply
+  bg-white
+	text-black
+		min-w-full
+		h-64
+    items-center
+    justify-center
+		rounded row-span-2 col-start-2 col-span-3;
+}
